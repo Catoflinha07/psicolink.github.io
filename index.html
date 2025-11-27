@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Psicolink - Login</title>
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+    <div class="header-top-bar"></div>
+    <header class="header">
+        <div class="logo-container">
+            <span class="logo-icon">&#x03A8;</span> 
+            <h1 class="logo-text">Psicolink</h1>
+        </div>
+    </header>
+    <div class="separator-bar"></div>
+
+    <main class="main-content">
+        
+        <div class="login-box" id="tela-login">
+            <form id="loginForm"> 
+                <input type="text" id="cpf" name="cpf" placeholder="cpf" required>
+                <input type="password" id="senha" name="senha" placeholder="senha" required>
+                <button type="submit" class="login-button">LOGIN</button>
+            </form>
+        </div>
+
+        <div class="dashboard-box hidden" id="tela-dashboard">
+            <button class="menu-button">perfil</button>
+            <button class="menu-button">minhas consultas</button>
+            <button class="menu-button">marcar consulta</button>
+            <button class="menu-button">cancelar consulta</button>
+        </div>
+
+    </main>
+
+    <footer class="footer-bottom-bar"></footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
